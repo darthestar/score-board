@@ -7,3 +7,57 @@ body {
   min-height: 100%;
   font: 16px / 1 sans-serif;
 }
+
+h1{
+  text-align: center;
+  font-weight: bolder;
+  font-size: 32px;
+}
+
+.score-board{
+  /* display: flex;
+  flex-direction: row;
+  justify-content: space-around; */
+}
+
+.team-names{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.team-scores{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 56px;
+}
+
+.first-team{
+  margin: 1em;
+}
+
+.second-team{
+  margin: 1em;
+}
+
+
+.update-name{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.update-name > section{
+  margin: 2em;
+}
+
+.update-score{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+button{
+  margin: 1em;
+}
