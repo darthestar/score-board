@@ -1,8 +1,7 @@
 const main = () => {
   // document.querySelector('h1').textContent += '?'
 
-  const team1Name = "Team 1";
-  const team2Name = "Team 2";
+  
 
 }
 
@@ -34,4 +33,13 @@ const subTeam2 = () => {
   console.log("Button was Clicked");
   const secondTeamScore = document.querySelector(".second-team-score");
   secondTeamScore.textContent = team2Total;
+}
+
+const team1Name = document.querySelector(".first-team");
+const team2Name = document.querySelector(".second-team");
+
+const updateTeam1 = () => {
+const newTeam1name = document.querySelector(".ut1").value;
+console.log("HELLO")
+team1Name.textContent = newTeam1name;
 }
