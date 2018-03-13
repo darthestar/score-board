@@ -29,7 +29,7 @@ h1{
 .team-scores{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   font-size: 56px;
 }
 
@@ -55,9 +55,19 @@ h1{
 .update-score{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 button{
   margin: 1em;
+}
+
+.quarter-box{
+  
+  background-color: chartreuse;
+  border: blueviolet 2px dashed;
+  font-size: 34px;
+  text-align: center;
+  padding: 1em;
+  margin: 0em 7em;
 }

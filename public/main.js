@@ -49,3 +49,13 @@ const updateTeam2 = () => {
   console.log("HELLO")
   team2Name.textContent = newTeam2name;
 }
+
+let quarter = 1;
+const quarterTracker = () =>{
+if(quarter <=3){
+  quarter++;}
+  console.log("HELLO");
+  const newQuarter = document.querySelector(".quarter-tracker");
+  newQuarter.textContent = quarter;
+
+}
