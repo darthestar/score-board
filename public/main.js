@@ -43,3 +43,9 @@ const newTeam1name = document.querySelector(".ut1").value;
 console.log("HELLO")
 team1Name.textContent = newTeam1name;
 }
+
+const updateTeam2 = () => {
+  const newTeam2name = document.querySelector(".ut2").value;
+  console.log("HELLO")
+  team2Name.textContent = newTeam2name;
+}
